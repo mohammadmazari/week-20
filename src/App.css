@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@font-face {
+  font-family: iranYcan;
+  src: url("./assets/fonts/iranyekanwebbold.ttf") format("ttf"),
+    url("./assets/fonts/iranyekanwebbold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: iranYcan;
+  src: url("./assets/fonts/iranyekanwebmedium.ttf") format("ttf"),
+    url("./assets/fonts/iranyekanwebmedium.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: iranYcan;
+  src: url("./assets/fonts/iranyekanwebregular.ttf") format("ttf"),
+    url("./assets/fonts/iranyekanwebregular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+body {
+  color: black;
+  background-color: #f7f8f8;
+  font-family: iranYcan;
+  direction: rtl;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #5e95ed;
+
+}
